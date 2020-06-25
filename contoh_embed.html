@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of Embedding website inside Bootstrap Modal</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+.container {
+    padding-top: 10px;
+    }
+.modal-dialog {
+    margin: 2px;
+}
+.modal-body {
+    padding: 0px;
+    height: 870px;
+}
+.embed-responsive {
+    height: 870px;
+}
+.ytplayer {
+    padding-left: 0px;"
+}
+.alert {
+    margin-bottom: 5px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+</style>
+<body>
+<div class="container">
+    <div class="alert alert-success" role="alert">
+    <strong>Perhatian!</strong> Berikut ini merupakan daftar pertanyaan dan jawaban untuk membantu Anda menggunakan Ensiklopedia Kesaguan.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  </div>
+    <!-- Button HTML (to Trigger Modal) -->
+    <a href="#kuis1" class="btn btn-success btn-block" data-toggle="modal"><strong>Kuis I: Menguji Pengetahuan Kesaguan</strong></a>
+    <a href="#kuis2" class="btn btn-success btn-block" data-toggle="modal"><strong>Kuis II: Validasi Materi</strong></a>
+    <a href="#kuis3" class="btn btn-success btn-block" data-toggle="modal"><strong>Kuis III: Validasi Media</strong></a>
+    <a href="#kuis4" class="btn btn-success btn-block" data-toggle="modal"><strong>Kuis IV: Angket Pemetaan Kondisi Peserta Didik</strong></a>
+    <a href="#kuis5" class="btn btn-success btn-block" data-toggle="modal"><strong>Kuis V: Angket Uji Coba Media</strong></a>
+    <a href="#kuis6" class="btn btn-success btn-block" data-toggle="modal"><strong>Kuis VI: Angket Budaya Membaca</strong></a>
+    <a href="#kuis7" class="btn btn-success btn-block" data-toggle="modal"><strong>Kuis VII: Angket Penggunaan <i>Smartphone</i></strong></a>
+    <a href="#kuis8" class="btn btn-success btn-block" data-toggle="modal"><strong>Kuis VIII</strong></a>
+    <a href="#kuis9" class="btn btn-success btn-block" data-toggle="modal"><strong>Kuis IX</strong></a>
+    
+    <!-- Modal HTML -->
+    <div id="kuis1" class="modal" style="padding-left: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                	<a href="javascript:document.location.reload();"
+						ONMOUSEOVER="window.status='Refresh'; return true"
+						ONMOUSEOUT="window.status='ah... that was good'">
+						<img src="https://as2.ftcdn.net/jpg/01/13/02/27/500_F_113022705_tt4gJSLGi0NXRCz2MANMBWbcVvNXWuiF.jpg" 
+						width="auto" height="30" border="0" /></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe id="kuis1"  type="text/html" src="https://www.mansarhugo.com/" frameborder="0"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal HTML -->
+    <div id="kuis2" class="modal" style="padding-left: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                	<a href="javascript:document.location.reload();"
+						ONMOUSEOVER="window.status='Refresh'; return true"
+						ONMOUSEOUT="window.status='ah... that was good'">
+						<img src="https://as2.ftcdn.net/jpg/01/13/02/27/500_F_113022705_tt4gJSLGi0NXRCz2MANMBWbcVvNXWuiF.jpg" 
+						width="auto" height="30" border="0" /></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe id="kuis2"  type="text/html" src="https://www.ariesrutung.com/" frameborder="0"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal HTML -->
+    <div id="kuis3" class="modal" style="padding-left: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                	<a href="javascript:document.location.reload();"
+						ONMOUSEOVER="window.status='Refresh'; return true"
+						ONMOUSEOUT="window.status='ah... that was good'">
+						<img src="https://as2.ftcdn.net/jpg/01/13/02/27/500_F_113022705_tt4gJSLGi0NXRCz2MANMBWbcVvNXWuiF.jpg" 
+						width="auto" height="30" border="0" /></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe id="kuis3"  type="text/html" src="https://www.mansarhugo.com/" frameborder="0"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal HTML -->
+    <div id="kuis4" class="modal" style="padding-left: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                	<a href="javascript:document.location.reload();"
+						ONMOUSEOVER="window.status='Refresh'; return true"
+						ONMOUSEOUT="window.status='ah... that was good'">
+						<img src="https://as2.ftcdn.net/jpg/01/13/02/27/500_F_113022705_tt4gJSLGi0NXRCz2MANMBWbcVvNXWuiF.jpg" 
+						width="auto" height="30" border="0" /></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe id="kuis4"  type="text/html" src="https://www.mansarhugo.com/" frameborder="0"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+ 
+     <!-- Modal HTML -->
+    <div id="kuis5" class="modal" style="padding-left: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                	<a href="javascript:document.location.reload();"
+						ONMOUSEOVER="window.status='Refresh'; return true"
+						ONMOUSEOUT="window.status='ah... that was good'">
+						<img src="https://as2.ftcdn.net/jpg/01/13/02/27/500_F_113022705_tt4gJSLGi0NXRCz2MANMBWbcVvNXWuiF.jpg" 
+						width="auto" height="30" border="0" /></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe id="kuis5"  type="text/html" src="https://www.mansarhugo.com/" frameborder="0"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+      <!-- Modal HTML -->
+    <div id="kuis6" class="modal" style="padding-left: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                	<a href="javascript:document.location.reload();"
+						ONMOUSEOVER="window.status='Refresh'; return true"
+						ONMOUSEOUT="window.status='ah... that was good'">
+						<img src="https://as2.ftcdn.net/jpg/01/13/02/27/500_F_113022705_tt4gJSLGi0NXRCz2MANMBWbcVvNXWuiF.jpg" 
+						width="auto" height="30" border="0" /></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe id="kuis6"  type="text/html" src="https://www.mansarhugo.com/" frameborder="0"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal HTML -->
+    <div id="kuis7" class="modal" style="padding-left: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                	<a href="javascript:document.location.reload();"
+						ONMOUSEOVER="window.status='Refresh'; return true"
+						ONMOUSEOUT="window.status='ah... that was good'">
+						<img src="https://as2.ftcdn.net/jpg/01/13/02/27/500_F_113022705_tt4gJSLGi0NXRCz2MANMBWbcVvNXWuiF.jpg" 
+						width="auto" height="30" border="0" /></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe id="kuis7"  type="text/html" src="https://www.mansarhugo.com/" frameborder="0"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal HTML -->
+    <div id="kuis8" class="modal" style="padding-left: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                	<a href="javascript:document.location.reload();"
+						ONMOUSEOVER="window.status='Refresh'; return true"
+						ONMOUSEOUT="window.status='ah... that was good'">
+						<img src="https://as2.ftcdn.net/jpg/01/13/02/27/500_F_113022705_tt4gJSLGi0NXRCz2MANMBWbcVvNXWuiF.jpg" 
+						width="auto" height="30" border="0" /></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe id="kuis8"  type="text/html" src="https://www.mansarhugo.com/" frameborder="0"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Modal HTML -->
+    <div id="kuis9" class="modal" style="padding-left: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                	<a href="javascript:document.location.reload();"
+						ONMOUSEOVER="window.status='Refresh'; return true"
+						ONMOUSEOUT="window.status='ah... that was good'">
+						<img src="https://as2.ftcdn.net/jpg/01/13/02/27/500_F_113022705_tt4gJSLGi0NXRCz2MANMBWbcVvNXWuiF.jpg" 
+						width="auto" height="30" border="0" /></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe id="kuis9"  type="text/html" src="https://www.mansarhugo.com/" frameborder="0"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>     
+<!--Script di atas ini -->
+</div>
+
+<script>
+$(document).ready(function(){
+    /* Get iframe src attribute value i.e. YouTube video url
+    and store it in a variable */
+    var url = $("#ytplayer").attr('src');
+    
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#ytplayer").on('hide.bs.modal', function(){
+        $("#cartoonVideo").attr('src', '');
+    });
+    
+    /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+    $("#ytplayer").on('show.bs.modal', function(){
+        $("#cartoonVideo").attr('src', url);
+    });
+});
+</script>    
+</body>
+</html>                            
+

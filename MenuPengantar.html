@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+div {
+  margin-bottom: 15px;
+  padding: 4px 12px;
+}
+
+.danger {
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+}
+
+.success {
+  background-color: #ddffdd;
+  border-left: 6px solid #4CAF50;
+}
+
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
+
+.warning {
+  background-color: #ffffcc;
+  border-left: 6px solid #ffeb3b;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<p>
+</p>
+  <!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#myModal"><b>Pengantar dari Pengembang Aplikasi</b></button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <div style="width: 80%; float:left;">
+             <h4 class="modal-title"><b>Prakta dari Kepala SMAN 1 Manokwari</b>
+         </div>
+         <div style="width: 10%; float:right">
+             <button type="button" class="close" data-dismiss="modal"> <span aria-hidden="true">×</span></button>
+         </div>
+         </div>
+        <div class="modal-body w3-panel w3-note">
+          <p>Puji syukur penulis ucapkan ke hadirat Tuhan Yang Maha Esa atas segala limpahan rahmat, bimbingan, dan penyertaan-Nya kepada penulis sehingga dapat menyelesaikan penyusunan proposal “Pengembangan Aplikasi Ensiklopedia Kesaguan sebagai Media Pembelajaran Bahasa Berbasis Lingkungan: Referensi Baca Mata Pelajaran Bahasa Indonesia Kelas X SMA Negeri 1 Manokwari” sesuai dengan waktu yang direncanakan. Aplikasi ini dipakai dalam kegiatan pembelajaran bahasa sebagai upaya pengaktifan wacana-wacana dan leksikon-leksikon yang berhubungan dengan lingkungan kesaguan.</p><br>
+          <p>Kepustakaan Indonesia – sejauh yang penulis amati – belum ada aplikasi serupa dari peneliti terdahulu yang berusaha mengintegrasikan linkungan kesaguan sebagai bahan ajar. Aplikasi Ensiklopedia Kesaguan ini merupakan aplikasi pertama yang meliput tentang kesaguan, khususnya di Papua. Aplikasi ini diharapkan mampu memberikan sumbangan yang cukup kepada kegiatan pembelajaran terutama pembelajaran bahasa. Selain itu, aplikasi Ensiklopedia Kesaguan ini juga diharapkan dapat menjadi referensi bagi para peneliti lain sebagai pengaya informasi mengenai ekologi kesaguan.</p><br>
+          <p>Keberhasilan pengembangan aplikasi ini tidak terlepas dari dukungan moril dan materiel semua pihak. Oleh karena itu, penulis mengucapkan terima kasih kepada mereka yang turut berandil dalam perancangan dan pembuatan aplikasi sederhana ini. Ucapan terima kasih yang terutama kepada bapak/ibu dosen di lingkungan Program Studi Pendidikan Bahasa Indonesia, diantaranya Dr. Hugo Warami, S.Pd., M.Hum. sebagai Pembimbing I, Dr. Insum Malawat, S.Pd., M.Hum. sebagai Pembimbing II, Quin D. Tulalessy, S.Pd., M.Hum. sebagai Dosen Wali, Kartika Mandowen, S.Pd., M.Pd., dan dosen-dosen lain pada jurusan yang tersebut di atas. Ucapan terima kasih juga kepada semua pihak (siapapun) yang tidak dapat disebutkan satu per satu yang telah membantu menyukseskan penyelesaian pengembangan aplikasi ini.</p><br>
+          <p>Karya kecil ini bukanlah karya yang sempurna dan penulis menyadari sepenuhnya akan kekurangan dan kelemahan yang terdapat di dalamnya, baik itu konten-kontennya, cara penyajiannya, maupun sistematika bagian-bagian di dalam aplikasi yang dirancang. Oleh karena itu, kritik dan saran yang konstruktif dan mampu mengungkap serta menguraikan kelemahan-kelemahan demi kesempurnaan aplikasi yang dibuat selalu diharapkan dan diterima dengan hati terbuka.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<p></p>
+<!--Modal 2 -->
+  <button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#modalDiscount"><b>Prakta dari Kepala SMAN 1 Manokwari</b></button>
+
+    <!--Modal: modalDiscount-->
+    <div class="modal fade right" id="modalDiscount" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true" data-backdrop="true">
+      <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
+        <!--Content-->
+        <div class="modal-content">
+          <!--Header-->
+          <div class="modal-header">
+          <div style="width: 80%; float:left;">
+             <h4 class="modal-title"><b>Prakta dari Kepala SMAN 1 Manokwari</b>
+         </div>
+         <div style="width: 10%; float:right">
+             <button type="button" class="close" data-dismiss="modal"> <span aria-hidden="true">×</span></button>
+         </div>
+         </div>
+
+          <!--Body-->
+          <div class="modal-body" style="margin-left: 0px">
+                <div class="warning">
+                  <p>Perkembangan teknologi berdampak sangat baik bagi dunia pendidikan. Hal ini dapat dilihat pada ketersedian media dan sumber belajar berbasis teknologi informasi dan komunikasi. Kehadiran media-media tersebut tentu memberi dampak pada proses dan keberhasilan kegiatan pembelajaran. Salah satunya adalah proses penyampaian materi yang rumit telah berubah menjadi hal yang sederhana, menarik, dan mudah dimengerti. Selain itu, kehadiran media dapat merangsang pikiran, perasaan, perhatian, dan kemauan belajar peserta didik. Media di dalam proses pembelajaran dapat menciptakan suasana interaktif, meningkatkan kualitas belajar, meningkatkan daya tarik dan kemauan siswa, dan proses pemahaman materi menjadi lebih cepat (Supriyanta, 2012: 2).</p>
+                </div>
+                <div class="warning">
+                  <p>Media memiliki arti dan pengaruh yang besar. Pengaruh tersebut terutama berkelindan dengan penggunaan indra, yaitu penggunaan mata dan telinga di dalam kegiatan pembelajaran. Peserta didik yang belajar melalui satu indra, semisal indra pendengaran, tentu memiliki tingkat pemahaman yang berbeda dengan peserta didik yang belajar menggunakan dua indera sekaligus. Media mampu memantik keterlibatan emosi dan mental. Kehadiran media, dengan demikian, memperjelas informasi pada waktu tatap muka sekaligus memperkaya, meningkatkan efektivitas dan efisiensi, menambah variasi, dan memberikan cakrawala yang lebih luas dari apa yang diberikan guru tanpa media, mengonkretkan materi yang relatif abstrak, serta menambah rentang perhatian peserta didik (Haryadi, dkk., 2013).</p>
+                </div>
+                <p>Bertolak dari uraian mengenai kelebihan dan pengaruh media di atas, penggunaan media dapat pula diterapkan dalam upaya pelestarian bahasa lingkungan. Upaya ini diwujudkan melalui penyediaan media pembelajaran yang berbasis lingkungan. Pembelajaran berbasis lingkungan akan memberikan pengaruh yang baik kepada peserta didik terutama dalam hal pemertahanan bahasa (bahasa lingkungan). Selain itu,  media berbasis lingkungan akan memudahkan peserta didik mengembangkan imajinasi karena belajar bahasa itu tidak akan lepas dari proses imajinatif. Integrasi media dalam kegiatan pembelajaran bahasa bukan sekadar sebagai penghantar materi, melainkan juga sarana membangkitkan imajinasi dan minat sehingga tercipta suasana yang menyenangkan dan menggembirakan (Djojosuroto, 2013).</p>
+                <p>Pembelajaran bahasa berbasis lingkungan merupakan suatu upaya peningkatan pengetahuan dan pemahaman dalam rangka membangun kecerdasan ekologis bagi kepentingan manusia. Pembelajaran bahasa berbasis lingkungan dapat membantu peserta didik menguasai pembelajaran bahasa, juga membangun kecerdasan manusia untuk berinteraksi dengan alam (menjaga) demi kepentingan siklus hidup ke depan (Tulalessy, 2016). Melalui pembelajaran bahasa yang berbasis lingkungan itu, peserta didik memulihkan kembali interaksi, interelasi, dan interdependensi (kesalingbergantungan) dengan lingkungan, sekaligus mencegah gejala ketidakberakaran hidup mereka (Mbete, 2015).</p><br>
+                <p>Berangkat dari kenyataan di atas, penulis menghadirkan Ensiklopedia Kesaguan sebagai  media pembelajaran bahasa berbasis lingkungan. Sesuai dengan namanya, media pembelajaran ini bertemakan lingkungan kesaguan. Tumbuhan sagu menjadi penanda dan ciri khas beberapa wilayah di Indonesia, seperti Papua, Maluku, Sumatra, Kalimantan, dan Sulawesi. Sagu merupakan konten yang paling sempurna untuk dikonversi menjadi bahan bacaan dalam kegiatan pembelajaran. Hal ini dikarenakan hampir seluruh bagian tubuh tumbuhan sagu bermanfaat bagi kehidupan manusia. Seluruh bagian tubuh tumbuhan sagu dipandang dengan cara yang berbeda-beda oleh masyarakat pemiliknya. Warna-warni pandangan itulah yang dapat memperkaya pengetahuan masyarakat luas.</p>
+                <p>Kehadiran Ensiklopedia Kesaguan di dalam kegiatan pembelajaran juga merupakan sebuah upaya menumbuhkan pengetahuan tentang ekologi kesaguan sehingga dapat melekat pada diri peserta didik. Di sisi hal ini, pengetahuan peserta didik akan bahasa lingkungan tidak ikut tergerus karena perkembangan teknologi. Selain itu, interaksi dan interelasi antara manusia dengan lingkungan semakin terjaga. Pengembangan media pembelajaran bahasa berbasis lingkungan bukan sekadar upaya penghijauan leksikon-leksikon (berkaitan dengan lingkungan), melainkan juga sebagai pengungkap ideologi suatu kebudayaan tertentu, terutama cara kebudayaan-kebudayaan itu memandang dan memperlakukan alamnya.</p>
+          </div>
+          <!--Footer-->
+          <div class="modal-footer flex-center">
+            <a type="button" class="btn btn-danger" data-dismiss="modal">Tutup</a>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+    </div>
+  </div>
+
+    <!--Modal: modalDiscount-->
+</body>
+</html>
+
